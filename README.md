@@ -23,7 +23,7 @@ GENRE (Movie genre - char*)
 * The tree has order 4 and its disc page size has 64 bytes.
 * The file structure organization has fixed-length fields and registers.
 
-Each time a movie register is inserted in the primary file, its input is also saved in the b-star tree index file.
+Each time a movie register is inserted in the primary file, its input is also registered in the b-star tree index file.
 Inside the database, the movies will be saved in a Binary file called `DADOS.bin`.
 
 EXAMPLE 
